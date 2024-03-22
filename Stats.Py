@@ -16,7 +16,6 @@ if len(numbers) == 0:
 return 0
 else:
 return sum(numbers) / float(len(numbers))
-We will now test these functions using the list [3, 1, 7, 1, 4, 10] defined in main using the below code:
 def main():
 nums = [3, 1, 7, 1, 4, 10]
 print("List: ", nums)
